@@ -8,5 +8,25 @@
 </head>
 <body>
     <h1>Registration</h1>
+    <h3>Create a new account:</h3>
+    <form action="/user/new_user" method="POST">
+        {% csrf_token %}
+        <div>
+            <label>First Name <input type=text name='first_name'></label>
+        </div>
+        <div>
+            <label>Last Name <input type=text name='last_name'></label>
+        </div>
+        <div>
+            <label>Email <input type=text name='email'></label>
+        </div>
+        <div>
+            <label>Password <input type=password name='password'></label>
+        </div>
+        <div>
+            <label>Re-enter Password <input type=password name='password_conf'></label>
+        </div>
+        <button type="submit" value="Create Account">Create Account</button>
+    </form>
 </body>
 </html>

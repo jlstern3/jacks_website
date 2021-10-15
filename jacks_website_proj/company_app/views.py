@@ -14,3 +14,5 @@ def home(request):
 def register(request):
     return render(request, 'register.html')
 
+def programs(request):
+    return render(request, 'programs.html')
