@@ -7,12 +7,17 @@
     <!-- CSS -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'styles.css' %}">
-    <title>Document</title>
-
-
-
+    <title>Login</title>
 </head>
 <body>
     <h1>Login</h1>
+    <form action="/user/login" method="POST">
+        {% csrf_token %}
+        <label>Email<input type="text" name="email"></label>
+        <label>Password<input type="text" name="password"></label>
+        <button type="submit" value="login">Login</button>
+
+    <h3>New user? <a href="/user/register">Click here to register</a></h3>
+    </form>
 </body>
 </html>
