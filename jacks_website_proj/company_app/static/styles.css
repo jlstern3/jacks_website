@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* Home Page */
 .header_photo{
     background-image: url("/static/img/Lichen.jpg");
     width: 100%;
@@ -24,5 +25,11 @@
     text-align: center;
 }
 
-
-
+/* About Page */
+#jack_pic{
+    background-image: url("/static/img/Jack.jpg");
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-size: cover;
+}
