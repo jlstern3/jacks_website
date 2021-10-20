@@ -3,3 +3,26 @@
     margin: 0;
 }
 
+.header_photo{
+    background-image: url("/static/img/Lichen.jpg");
+    width: 100%;
+    filter: grayscale(100%);
+    /* background-size: cover; */
+    height: 100px;
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+    content: '';
+}
+
+#logo{
+    position: relative;
+    color: black;
+    text-align: center;
+}
+
+
+
