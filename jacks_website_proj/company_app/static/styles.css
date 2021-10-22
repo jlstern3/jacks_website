@@ -8,7 +8,7 @@
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    padding-top: 10%;
+    padding-top: 4%;
 }
 
 .app_entrance_form{
@@ -41,6 +41,17 @@
     margin-top: 10px;
 }
 
+
+/* Navbar */
+.navbar-brand{
+    padding-left: 10px;
+}
+
+i.fas.fa-crow{
+    margin-left: 20px;
+}
+
+
 /* Home Page */
 .header_photo{
     background-image: url("/static/img/Lichen.jpg");
@@ -71,3 +82,4 @@
     border-radius: 100%;
     background-size: cover;
 }
+

@@ -11,10 +11,21 @@
     <!-- CSS -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/4addeb10e0.js" crossorigin="anonymous"></script>
     <title>Cedar & Crow - Login</title>
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <i class="fas fa-crow"></i><a class="navbar-brand" href="/home">Cedar & Crow</a>
+            <span class="navbar-text">
+                Your guide to the magical outdoor world.
+            </span>
+        </nav>
+    </div>
     <h1 class="app_entrance_title">Login</h1>
     <div class="app_entrance_form">
         <form action="/user/login" method="POST">
