@@ -3,6 +3,34 @@
     margin: 0;
 }
 
+/* Login Page */
+#login_form{
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+#login_title{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10%;
+}
+
+#password_label{
+    padding-top: 15px;
+}
+
+#login_btn{
+    margin: 15px 0px;
+}
+
+#login_form p{
+    text-align: center;
+}
+
 /* Home Page */
 .header_photo{
     background-image: url("/static/img/Lichen.jpg");
