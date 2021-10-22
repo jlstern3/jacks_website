@@ -3,8 +3,15 @@
     margin: 0;
 }
 
-/* Login Page */
-#login_form{
+/* Login & Registration Pages */
+.app_entrance_title{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10%;
+}
+
+.app_entrance_form{
     margin-right: auto;
     margin-left: auto;
     width: 400px;
@@ -12,23 +19,26 @@
     padding: 20px;
 }
 
-#login_title{
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 10%;
-}
-
 #password_label{
     padding-top: 15px;
 }
 
-#login_btn{
+#login_btn, #register_btn{
     margin: 15px 0px;
 }
 
-#login_form p{
+.app_entrance_form p{
     text-align: center;
+}
+
+#info_sharing{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register_label{
+    margin-top: 10px;
 }
 
 /* Home Page */
