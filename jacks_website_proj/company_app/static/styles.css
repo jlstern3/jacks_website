@@ -51,6 +51,9 @@ i.fas.fa-crow{
     margin-left: 20px;
 }
 
+nav{
+    margin-bottom: 2rem;
+}
 
 /* Home Page */
 .header_photo{
@@ -297,3 +300,10 @@ i.fas.fa-crow{
     background-color: lightgrey;
     border-radius: 100%;
 } */
+
+
+/* Contact Page */
+.contact, .container.home, .programs, .about{
+    margin-left: 5rem;
+}
+
