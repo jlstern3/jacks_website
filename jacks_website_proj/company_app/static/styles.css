@@ -74,37 +74,7 @@ i.fas.fa-crow{
     text-align: center;
 }
 
-/* About Page */
-#jack_pic{
-    background-image: url("/static/img/Jack.jpg");
-    height: 400px;
-    width: 400px;
-    border-radius: 100%;
-    background-size: cover;
-}
-
-.about_pic{
-    height: 400px;
-    width: 400px;
-    border-radius: 100%;
-}
-
-/* Carousel */
-/* .carousel-inner{
-    width: 400px;
-    height: 400px;
-} */
-
-#carouselExampleSlidesOnly{
-    width: 45%;
-    height: auto;
-}
-
-
-.btn:hover{
-    background-color: #635589;
-}
-/* Standard Carousel Styles */
+/* Carousel*/
 .carousel {
     position: relative;
     margin-left: auto;
@@ -155,7 +125,7 @@ i.fas.fa-crow{
     display: block;
 }
 
-  /* rtl:begin:ignore */
+
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
     transform: translateX(100%);
@@ -166,7 +136,6 @@ i.fas.fa-crow{
     transform: translateX(-100%);
 }
 
-  /* rtl:end:ignore */
 .carousel-fade .carousel-item {
     opacity: 0;
     transition-property: opacity;
@@ -242,14 +211,6 @@ i.fas.fa-crow{
     background-size: 100% 100%;
 }
 
-/* rtl:options: {
-    "autoRename": true,
-    "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-    } ]
-  } */
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
@@ -320,3 +281,9 @@ i.fas.fa-crow{
 .carousel-dark .carousel-caption {
     color: #000;
 }
+
+/* Formatting Carousel Control Buttons */
+/* button .carousel-control-prev-icon, button .carousel-control-next-icon{
+    background-color: lightgrey;
+    border-radius: 100%;
+} */
