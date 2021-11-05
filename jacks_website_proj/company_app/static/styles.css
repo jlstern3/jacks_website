@@ -74,7 +74,17 @@ i.fas.fa-crow{
     text-align: center;
 }
 
-/* Carousel*/
+.home_pg_pics{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.col-sm-6{
+    margin-bottom: 2rem;
+}
+
+/* About Page - Carousel*/
 .carousel {
     position: relative;
     margin-left: auto;
