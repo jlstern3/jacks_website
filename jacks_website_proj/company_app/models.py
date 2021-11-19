@@ -19,5 +19,6 @@ from django.db import models
 #     price = models.IntegerField
 #     location = models.CharField(max_length=255)
 #     date = models.DateField(auto_now=False, auto_now_add=False)
+#     interested_users = models.ManyToManyField(User, related_ame="desired_programs")
 #     created_at = models.DateTimeField(auto_now_add=True)
 #     updated_at = models.DateTimeField(auto_now=True)
