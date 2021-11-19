@@ -6,7 +6,8 @@ from django.db import models
 #     last_name = models.CharField(max_length=45)
 #     age = models.IntegerField(null = True)
 #     location = models.TextField(null = True)
-#     email = models.TextField()
+#     email = models.EmailField(max_length=255)
+#     phone_number = models.IntegerField(null= True)
 #     password = models.TextField()
     # created_at = models.DateTimeField(auto_now_add=True)
     # updated_at = models.DateTimeField(auto_now=True)
@@ -16,5 +17,7 @@ from django.db import models
 #     name = models.CharField(max_length=255)
 #     description = models.CharField(max_length=255)
 #     price = models.IntegerField
+#     location = models.CharField(max_length=255)
+#     date = models.DateField(auto_now=False, auto_now_add=False)
 #     created_at = models.DateTimeField(auto_now_add=True)
 #     updated_at = models.DateTimeField(auto_now=True)
